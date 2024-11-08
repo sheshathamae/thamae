@@ -1,0 +1,60 @@
+.dashboard {
+    background-color: #f4f7f9; /* Light background for the dashboard */
+    padding: 20px; /* Padding for spacing */
+    border-radius: 10px; 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Card shadow for depth */
+    max-width: 800px; /* Limit the width of the dashboard */
+    margin: 40px auto; /* Center the dashboard on the page */
+    font-family: 'Helvetica', sans-serif; /* Clean font for readability */
+  }
+  
+  .dashboard h2 {
+    text-align: center; 
+    color: crimson; 
+    font-size: 24px; /* Larger heading font */
+    margin-bottom: 30px; /* Spacing below heading */
+    border-bottom: 2px solid #007bff; 
+    padding-bottom: 10px;
+  }
+  
+  .table {
+    width: 100%; /* Full width table */
+    border-collapse: collapse; /* No gaps between table cells */
+    margin-top: 20px; /* Space between heading and table */
+  }
+  
+  .table thead {
+    background-color: #007bff; 
+    color: white; 
+  }
+  
+  .table th, .table td {
+    padding: 12px 20px; /* Padding inside cells */
+    border: 1px solid #ddd; 
+    text-align: center; 
+    font-size: 16px; 
+  }
+  
+  .table tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Alternate row background */
+  }
+  
+  .table tbody tr:hover {
+    background-color: #e6f7ff; /* Highlight row on hover */
+  }
+  
+  .table th {
+    font-weight: bold; /* Bold header text */
+  }
+  
+  .table td {
+    color: #555; /* Slightly darker text for table body */
+  }
+  
+  .no-products {
+    text-align: center; /* Center the "No products" text */
+    color: #999; 
+    font-size: 18px; 
+    margin-top: 20px; 
+  }
+  

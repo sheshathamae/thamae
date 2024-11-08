@@ -1,0 +1,89 @@
+/* General styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: magenta; /* Soft background for contrast */
+  }
+  
+  /* Container for the Login form */
+  .login {
+    max-width: 400px;
+    margin: 5% auto; /* Center the login form with some vertical space */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners for a modern look */
+    background-color: aquamarine; /* White background for the form */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  }
+  
+  /* Heading styles */
+  .login h2 {
+    text-align: center;
+    color:mediumpurple; /* Darker color for better readability */
+    margin-bottom: 20px; /* Space below heading */
+  }
+  
+  /* Form styles */
+  .login form {
+    display: flex;
+    flex-direction: column; /* Align inputs in a column */
+  }
+  
+  /* Label styles */
+  .login label {
+    margin-bottom: 5px; /* Space between label and input */
+    font-weight: bold; /* Make labels bold */
+    color: #555; /* Slightly lighter color for labels */
+  }
+  
+  /* Input styles */
+  .login input {
+    padding: 10px;
+    margin-bottom: 15px; /* Space between inputs */
+    border: 2px solid #007bff; /* Blue border for input fields */
+    border-radius: 5px; /* Rounded corners */
+    transition: border-color 0.3s; /* Smooth border color transition */
+    font-size: 16px; /* Larger font size for better readability */
+  }
+  
+  /* Input focus styles */
+  .login input:focus {
+    border-color: #0056b3; /* Darker blue on focus */
+    outline: none; /* Remove default outline */
+  }
+  
+  /* Button styles */
+  .login button {
+    padding: 10px;
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white; /* White text on button */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-weight: bold; /* Bold text */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth background color and scaling */
+  }
+  
+  .login button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    transform: scale(1.02); /* Slightly scale up on hover */
+  }
+  
+  .login button:disabled {
+    background-color: #b0b0b0; /* Gray out button when disabled */
+    cursor: not-allowed; /* Not allowed cursor */
+  }
+  
+  /* Back to Sign Up button styles */
+  .back-to-sign-up {
+    background-color: transparent; /* Transparent background */
+    color: #007bff; /* Blue text */
+    border: 2px solid #007bff; /* Blue border */
+    margin-top: 10px; /* Space above button */
+    cursor: pointer; /* Pointer cursor */
+  }
+  
+  .back-to-sign-up:hover {
+    background-color: #007bff; /* Blue background on hover */
+    color: white; /* White text on hover */
+  }
+  

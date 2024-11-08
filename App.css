@@ -1,0 +1,179 @@
+/* Global styles */
+html, body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url("wingss.jpg");
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+  height: 100vh; 
+  overflow: hidden; 
+}
+
+.App {
+  text-align: center;
+}
+
+header {
+  background-color: rgba(63, 81, 181, 0.8); /* Semi-transparent overlay */
+  color: white;
+  padding: 20px 0;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #179ad2;
+  text-transform: uppercase;
+}
+
+.main-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background: rgba(25, 24, 24, 0.9); 
+  border-radius: 10px;
+}
+
+/* Card-like layout for each section */
+.main-content > div {
+  background-color: rgb(0, 204, 255);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.main-content > div:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling for buttons */
+button {
+  background-color: #3f51b5;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+button:hover {
+  background-color: #fffefebb;
+}
+
+button:focus {
+  outline: none;
+}
+
+/* Logout button */
+.logout {
+  background-color: #f44336;
+  margin-top: 20px;
+}
+
+/* Sign In and Login form */
+form {
+  max-width: 400px;
+  margin: 20px auto;
+  background-color: rgb(0, 204, 255); /* Semi-transparent form background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+form input {
+  width: auto;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+form input:focus {
+  border-color: #3f51b5;
+}
+
+form button {
+  width: 100%;
+  padding: 12px;
+  font-size: 1.1rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .main-content {
+    grid-template-columns: 1fr;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  button {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+}
+
+/* Navigation bar styles */
+nav ul {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  list-style: none;
+  background-color: #333;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.1em;
+  font-weight: bold;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+nav ul li a:hover {
+  background-color: #555;
+  color: #e0e0e0;
+}
+
+/* Active link styling */
+nav ul li a.active-link {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Add a subtle shadow effect */
+nav ul li a {
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+nav ul li a:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}

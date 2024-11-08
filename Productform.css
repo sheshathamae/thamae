@@ -1,0 +1,45 @@
+.product-form {
+    background-color: #f9f9f9; /* Light background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 20px; /* Spacing around the content */
+    max-width: 400px; /* Max width of the form */
+    margin: 20px auto; /* Centering the form */
+    font-family: Arial, sans-serif; /* Font style */
+  }
+  
+  .product-form h2 {
+    text-align: center; /* Centered title */
+    color:yellowgreen; /* Darker text color */
+    margin-bottom: 20px; /* Space below the title */
+  }
+  
+  .product-form input {
+    width: 100%; /* Full width inputs */
+    padding: 10px; /* Spacing inside the inputs */
+    margin-bottom: 15px; /* Space between inputs */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px; /* Rounded corners for inputs */
+    font-size: 16px; /* Font size */
+  }
+  
+  .product-form input:focus {
+    border-color: #007bff; /* Blue border on focus */
+    outline: none; /* Remove outline */
+  }
+  
+  .product-form button {
+    width: 100%; /* Full width button */
+    padding: 10px; /* Spacing inside the button */
+    background-color: #007bff; /* Primary color */
+    color: white; /* Text color */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+  }
+  
+  .product-form button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
